@@ -1,14 +1,12 @@
 import React from "react";
-import Join from './components/Join/Join'
-import Chat from './components/Chat/Chat'
+import AppRoutes from "./routes/AppRoutes";
 
 
 const App = () => {
 
     return (
         <>
-       <Join/>
-       <Chat/>
+       <AppRoutes/>
         </>
     )
 }
